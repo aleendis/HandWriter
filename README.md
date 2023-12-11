@@ -73,3 +73,35 @@ ResNet-34은 34개의 layer로 이루어진 심층 신경망 아키텍처 중 �
         plt.show()
 
 이 코드에서 model(x)는 모델을 사용하여 이미지의 예측을 생성하고, 이를 시각화하기 위해 matplotlib을 사용한다.
+
+# 성능 평가 지표 계산 및 출력
+model.eval()
+all_predictions = []
+all_labels = []
+
+with torch.no_grad():
+    for inputs, labels in test_loader:
+        inputs, labels = inputs.to(device), labels.to(device)
+
+        outputs = model(inputs)
+        _, predicted = torch.max(outputs.data, 1)
+
+        all_predictions.extend(predicted.cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
+
+# 성능 평가 지표 계산
+accuracy = accuracy_score(all_labels, all_predictions)
+precision = precision_score(all_labels, all_predictions, average='weighted')
+recall = recall_score(all_labels, all_predictions, average='weighted')
+f1 = f1_score(all_labels, all_predictions, average='weighted')
+conf_matrix = confusion_matrix(all_labels, all_predictions)
+
+# 결과 출력
+print(f'Accuracy: {accuracy * 100:.2f}%')
+print(f'Precision: {precision * 100:.2f}%')
+print(f'Recall: {recall * 100:.2f}%')
+print(f'F1 Score: {f1 * 100:.2f}%')
+print('Confusion Matrix:')
+print(conf_matrix)
+
+이 코드에서는 이미지 분류 모델에 대한 성능 평가 지표에 따른 값을 계산하고 나타내주는 결과물을 출력한다.
