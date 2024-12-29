@@ -9,7 +9,6 @@
 <br>
 
 협업툴: <img src="https://img.shields.io/badge/Discord-#5865F2?style=for-the-badge&logo=discord&logoColor=white">
-<img src="https://img.shields.io/badge/Discord-#5865F2?style=for-the-badge&logo=discord&logoColor=white">
 <br>
 
 # 데이터 변환 및 DataLoader 설정
