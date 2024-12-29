@@ -1,13 +1,15 @@
 # HandWriter
 <h1>📚 STACKS</h1>
 
-언어: Python
+언어: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=black">
 <br>
 
-도구: Pytorch
+도구: <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=black">
 <br>
 
-협업툴: Discord, Figma, Github
+협업툴: <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black"> 
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=black"> 
+<img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=black">
 <br>
 
 # 데이터 변환 및 DataLoader 설정
