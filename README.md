@@ -7,7 +7,7 @@
 도구: <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=black">
 <br>
 
-협업툴: <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black"> 
+협업도구: <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black"> 
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=black"> 
 <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=black">
 <br>
