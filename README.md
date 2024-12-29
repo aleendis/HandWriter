@@ -1,5 +1,16 @@
 # HandWriter
 
+<h1>📚 STACKS</h1>
+
+언어: <img src="https://img.shields.io/badge/Python-#3776AB?style=for-the-badge&logo=python&logoColor=white">
+<br>
+
+도구: <img src="https://img.shields.io/badge/Pytorch-#EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+<br>
+
+협업툴: <img src="https://img.shields.io/badge/Discord-#5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<br>
+
 # 데이터 변환 및 DataLoader 설정
     transform = transforms.Compose([
         transforms.Resize((224, 224)),
